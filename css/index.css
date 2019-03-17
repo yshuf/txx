@@ -1,0 +1,360 @@
+/*main 部分 start*/
+.tx {
+	height: 300px;
+	/*background-color: pink;*/
+	position: relative;
+	margin-top: 15px;
+}
+.tx-inner {
+	height: 300px;
+	/*background-color: hotpink;*/
+	position: relative;
+	z-index: 1;
+}
+.tx-unit {
+	width: 270px;
+	height: 300px;
+	background-color: #F2F2F2;
+	float: left;
+	
+}
+.tx-unit li {
+	width: 250px;
+	height: 50px;
+	padding-left: 20px;
+	position: relative;
+}
+.tx-unit h5 {
+	display: inline-block;
+}
+.tx-unit h5 a {
+	line-height: 50px;
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.tx-unit a {
+	color: #666;
+	font-size: 14px;
+	margin-right: 8px;
+}
+.tx-unit li:hover {
+	background-color: #fff;
+}
+.tx-unit a:hover {
+	text-decoration: underline;
+}
+.tx-unit i {
+	width: 14px;
+	height: 14px;
+	font-family: "icomoon";
+	font-style: normal;
+	position: absolute;
+	top: 17px;
+	right: 13px;
+	font-size: 18px;
+	color: #C6C6D7;
+}
+.navitems-info {
+	width: 177px;
+	height: 235px;
+	/*background-color: #fff;*/
+	position: absolute;
+	top: 20px;
+	right: 0;
+	padding: 25px 0 0 45px;
+	border-radius: 3px;
+} 
+.navitems-info p {
+	color: #999;
+	font-size: 16px;
+}
+.navitems-info span {
+	display: inline-block;
+	width: 165px;
+	height: 130px;
+	position: absolute;
+	top: 55px;
+	left: 28px;
+	background: url(../images/sprite.png) no-repeat;
+	background-position: -147px -372px;
+}
+.navitems-info div {
+	width: 200px;
+	height: 50px;
+	background-color: #23B8FF;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 50px;
+}
+.navitems-info a {
+	color:#fff ;
+	font-size: 16px;
+}
+.tx-item {
+	width: 710px;
+	height: 300px;
+	/*background-color: pink;*/
+	float: left;
+	position: relative;
+}
+.tx-item a {
+	display: inline-block;
+}
+.tx-item .tx-item-one a:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+.arr-l,.arr-r {
+	font-family: "icomoon";
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, .3);
+	/*background-color: skyblue;*/
+}
+.arr-l {
+	left: 10px;
+}
+.arr-r {
+	right: 10px;
+}
+.tx-item .tx-item-two {
+	width: 400px;
+	height: 3px;
+	position: absolute;
+	left: 158px;
+	bottom: 18px;
+}
+.tx-item .tx-item-two li {
+	float: left;
+	width: 40px;
+	height: 3px;
+	margin-right: 10px;
+	background-color: #DADADA;
+}
+.tx-item .tx-item-two li:hover {
+	background-color: #808080;
+	cursor: pointer;
+}
+.ad {
+	height: 300px;
+	/*background: url(../images/index.jpg) no-repeat top center;*/
+	/*background-color: purple;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.ad a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*main 部分 end*/
+
+
+
+ /*快捷导航栏部分 start*/
+.nav {
+	width: 100%;
+	height: 66px;
+}
+.navitems {
+	width: 100%;
+	height: 65px;
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+}
+.navitems ul{
+	position: absolute;
+	top: 0;
+	left: 315px;
+}
+.navitems li {
+	width: 103px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	float: left;
+}
+.navitems .navitems-m {
+	color: #23B8FF;
+}
+.navitems li a {
+	color: #666;
+	font-size: 20px;
+}
+.navitems span {
+	display: inline-block;
+	width: 103px;
+	height: 4px;
+	background-color: #23B8FF;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.nav-box {
+	width: 76px;
+	height: 28px;
+	border: 1px solid #999;
+	position: absolute;
+	top: 20px;
+	right: 78px;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 2px;
+}
+.nav-box a {
+	color: #666;
+	font-style: 14px;
+}
+.nav-box a:hover {
+	border-color: #666;
+}
+ /*快捷导航栏部分 end*/
+
+
+/*内容部分 start*/
+.c_one {
+	/*background-color: pink;*/
+	height: 380px;
+	overflow: hidden;
+}
+.co-get {
+	width: 100%;
+	height: 30px;
+	margin-top: 50px;
+}
+.co-get h4 {
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 400;
+	color: #333;
+}
+.co-know {
+	height: 221px;
+	/*background-color: purple;*/
+	margin-top: 15px;
+}
+.co-know li {
+	width: 236px;
+	height: 221px;
+	/*background-color: skyblue;*/
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+	position: relative;
+} 
+.co-know li:hover {
+	border-color: #ddd;
+	box-shadow: 2px 2px 2px 2px #ececec;
+}
+.co-know-t {
+	width: 220px;
+	margin: 8px auto 8px;
+}
+.co-know-t img {
+	height: 124px;
+	width: 220px;
+}
+.co-know h4 {
+	margin-left: 8px;
+	width: 220px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.co-know h4 a {
+	color: #333;
+}
+.co-know h4:hover a {
+	color: #62b4f7;
+}
+
+
+
+.co-know-b {
+	width: 220px;
+	height: 21px;
+	/*background-color: purple;*/
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+}
+.co-know-bl {
+	font-size: 16px;
+	color: #e85308;
+	display: inline-block;
+	float: left;
+}
+.co-know-br {
+	float: right;
+}
+.co-know-br a {
+	font-size: 12px;
+	color: #999;
+}
+.co-know-br a:hover {
+	color: #62b4f7;
+}
+.c_two {
+	/*background-color: pink;*/
+	height: 560px;
+	overflow: hidden;
+}
+.co-geto {
+	width: 100%;
+	height: 30px;
+}
+.co-geto h4 {
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 400;
+	color: #333;
+}
+.co-know-bn {
+	font-size: 14px;
+	color: #5fb41b;
+	display: inline-block;
+	float: left;
+}
+/*内容部分 end*/
+
+/*了解更多部分 start*/
+.more-class {
+	/*background-color: pink;*/
+	height: 60px;
+	margin-bottom: 55px;
+	border: 5px solid #F4F4F4;
+}
+.more-class-l {
+	width: 100%;
+	margin: 20px 530px;
+	position: relative;
+}
+.more-class-l a {
+	color: #333;
+	font-size: 18px;
+}
+.more-class-l a i {
+	font-family: "icomoon";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	left: 100px;
+	top: -1px;
+}
+/*了解更多部分 end*/

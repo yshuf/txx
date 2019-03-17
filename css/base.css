@@ -1,0 +1,187 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h5 {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+			font-family: "icomoon";
+			src: url('../fonts/icomoon.eot?7kkyc2');
+			src: url('../fonts/icomoon.eot?7kkyc2#iefix') 
+					format('embedded-opentype'),
+				 url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+				 url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+				 url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+				 font-style: normal;
+				 font-weight: normal;
+}
+input,button {
+	padding: 0;
+	border: 0;
+}
+
+/*腾讯顶部start*/
+.T-event {
+	position: relative;
+	margin-top: 15px;
+}
+.logo h5 {
+	width: 180px;
+	height: 50px;
+	background: url(../images/sprite.png) no-repeat;
+}
+.search {
+	width: 350px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 360px;
+}
+.search-s {
+	width: 62px;
+	height: 48px;
+	border: 1px solid #ccc;
+	line-height: 48px;
+	text-align: center;
+}
+.search-s:hover {
+	cursor: pointer;
+}
+.search-s span {
+	color: #333;
+	font-size: 14px;
+}
+.search-s button {
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	outline: none;
+}
+.search-s i {
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 14px;
+	text-align: center;
+	line-height: 14px;
+	cursor: pointer;
+}
+.search input {
+	width: 225px;
+	height: 48px;
+	border: 1px solid #ccc;
+	line-height: 48px;
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	color: #A6A6A6;
+	outline: none;
+	margin-left: -1px;
+}
+.search a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: #23B8FF;
+}
+.search em {
+	font-family: "icomoon";
+	display: block;
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-style: normal;
+	color: #fff;
+	font-size: 16px;
+}
+.hotwords {
+	width: 323px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.hotwords li {
+	float: left;
+	line-height: 50px;
+	margin-left: 43px;
+}
+.hotwords a {
+	cursor: pointer;
+	color: #333;
+	font-size: 14px;
+}
+/*腾讯顶部end*/
+
+/*合作部分start*/
+.help {
+	width: 100%;
+	height:390px;
+	background-color: #444546;
+}
+.help-c {
+	height: 390px;
+	/*background-color: pink;*/
+}
+.help-link {
+	height: 214px;
+	border-bottom: 1px solid #4A4B4C;
+}
+
+.help-link h5 {
+	padding: 40px 0 30px;
+	font-size: 22px;
+	color: #999999;
+	font-weight: 400;
+}
+.help-link ul {
+	height: 35px;
+}
+.help-link li {
+	float: left;
+	margin-right: 40px;
+}
+.help-link  a {
+	color: #999;
+	font-size: 14px;
+}
+.help-link  a:hover  {
+	text-decoration: underline;
+}
+
+.copyright p{
+	margin: auto;
+	text-align: center;
+	color: #777;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+}
+.copyright p a {
+	color: #777;
+}
+.copyright p a:hover {
+	text-decoration: underline;
+}
+.copyright .copyright-e {
+	padding-top: 90px;
+}
+/*合作部分end*/
